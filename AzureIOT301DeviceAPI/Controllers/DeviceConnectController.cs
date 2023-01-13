@@ -10,6 +10,7 @@ namespace AzureIOT301DeviceAPI.Controllers
     {
         private readonly IDeviceConnect _deviceConnect;
 
+
         public DeviceConnectController(IDeviceConnect deviceConnect)
         {
             _deviceConnect = deviceConnect ?? throw new ArgumentNullException(nameof(_deviceConnect));
