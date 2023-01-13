@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "8MaYP9+nOf9s4nLROngGRIdHtykJnyf3AYBXwblv8+I=",
+  "Source": "AzureIOT301DeviceAPI",
+  "BasePath": "_content/AzureIOT301DeviceAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
