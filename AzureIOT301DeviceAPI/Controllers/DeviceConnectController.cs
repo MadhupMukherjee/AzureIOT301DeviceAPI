@@ -29,24 +29,28 @@ namespace AzureIOT301DeviceAPI.Controllers
         {
             return Ok(await _deviceConnect.UpdateDeviceAsync(deviceUserData));
         }
+
         [HttpPost]
         [Route("GetDevice")]
         public async Task<IActionResult> GetDeviceAsync(DeviceUserData deviceUserData)
         {
             return Ok(await _deviceConnect.GetDeviceAsync(deviceUserData));
         }
+
         [HttpPost]
         [Route("DeleteDevice")]
         public async Task<IActionResult> DeleteDeviceAsync(DeviceUserData deviceUserData)
         {
             return Ok(await _deviceConnect.DeleteDeviceAsync(deviceUserData));
         }
+
         [HttpPost]
         [Route("AddTagsAndQuery")]
         public async Task<IActionResult> AddTagsAndQueryAsync(DeviceUserData deviceUserData)
         {
             return Ok(await _deviceConnect.AddTagsAndQueryAsync(deviceUserData));
         }
+
         [HttpPost]
         [Route("UpdateDesiredProperty")]
         public async Task<IActionResult> UpdateDesiredPropertyAsync(DeviceUserData deviceUserData)
