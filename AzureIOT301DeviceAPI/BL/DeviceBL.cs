@@ -3,6 +3,7 @@ using AzureIOT301DeviceAPI.Model;
 using AzureIOT301DeviceAPI.Services;
 using Microsoft.Azure.Devices;
 
+
 namespace AzureIOT301DeviceAPI.BL
 {
     public class DeviceBL : IDeviceConnect
