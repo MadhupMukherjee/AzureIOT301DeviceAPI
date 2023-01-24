@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "3a8E8WfJZNM3GGDhktuKAX511VrceeM6eSCTtpk8iEXyoW0t69Rdcvg9eTNBvrkYx3rkLAj85t6LLmjpCkAVIw==",
+  "dgSpecHash": "owsxHQykrCRzX69o6aQPZ3Zvf64ms2LZ85X/35p20lCHkZ0RJ4k/DYjT+zCOSp74luLu90/Fo9/8B/cwzSdEIw==",
   "success": true,
   "projectFilePath": "E:\\Project\\AzureIOT301DeviceAPI\\AzureIOT301DeviceAPI\\AzureIOT301DeviceAPI.csproj",
   "expectedPackageFiles": [
@@ -28,6 +28,7 @@
     "C:\\Users\\Madhup\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\Madhup\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\Madhup\\.nuget\\packages\\microsoft.rest.clientruntime\\2.3.21\\microsoft.rest.clientruntime.2.3.21.nupkg.sha512",
+    "C:\\Users\\Madhup\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.15.1\\microsoft.visualstudio.azure.containers.tools.targets.1.15.1.nupkg.sha512",
     "C:\\Users\\Madhup\\.nuget\\packages\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\Madhup\\.nuget\\packages\\microsoft.win32.registry\\4.5.0\\microsoft.win32.registry.4.5.0.nupkg.sha512",
     "C:\\Users\\Madhup\\.nuget\\packages\\netstandard.library\\1.6.1\\netstandard.library.1.6.1.nupkg.sha512",

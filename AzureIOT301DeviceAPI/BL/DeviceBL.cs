@@ -10,6 +10,7 @@ namespace AzureIOT301DeviceAPI.BL
     {
         private readonly IConfiguration _configuration;
 
+
         public DeviceBL(IConfiguration configuration)
         {
             _configuration = configuration;
@@ -26,7 +27,7 @@ namespace AzureIOT301DeviceAPI.BL
 
             var primaryKey = Guid.NewGuid();
             var secondaryKey = Guid.NewGuid();
-
+            
             byte[] bytes = Encoding.UTF8.GetBytes(primaryKey.ToString());
             string base64PrimaryKey = Convert.ToBase64String(bytes);
 
