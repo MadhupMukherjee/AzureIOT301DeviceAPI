@@ -10,10 +10,10 @@ EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /src
-COPY ["AzureIOT301DeviceAPI/AzureIOT301DeviceAPI.csproj", "AzureIOT301DeviceAPI/"]
-RUN dotnet restore "AzureIOT301DeviceAPI/AzureIOT301DeviceAPI.csproj"
+COPY ["AzureIOT301DeviceAPI.csproj", "."]
+RUN dotnet restore "./AzureIOT301DeviceAPI.csproj"
 COPY . .
-WORKDIR "/src/AzureIOT301DeviceAPI"
+WORKDIR "/src/."
 RUN dotnet build "AzureIOT301DeviceAPI.csproj" -c Release -o /app/build
 
 FROM build AS publish
